@@ -1,0 +1,26 @@
+h1{
+	color:orange;
+}
+
+li, button {
+	cursor:pointer ;
+}
+.done {
+	font-style: Bold;
+	text-decoration: line-through;
+}
+
+.notDone {
+	font-style: normal;
+}
+
+@keyframes fadeOut{
+	0%{opacity:.75;}
+	10%{opacity: .50;}
+	100%{opacity: 0;}
+}
+
+.fading{
+	animation-name: fadeOut;
+	animation-duration: 2s;
+}
